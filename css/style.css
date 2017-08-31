@@ -1,0 +1,51 @@
+body{
+    background:transparent url(../images/wall.jpg) no-repeat top;
+    background-size:cover;
+}
+ul{
+    width:95%;
+    border-radius:5px;
+    margin-top:30px;
+    font-family:comic;
+}
+li{
+
+    background-color: grey;
+    list-style-type: none;
+    text-align:center;
+    font-size:25px;
+    margin:10px 0 10px 10px;
+    width:200px;
+     border-radius:5px;
+     padding:10px;
+     transition: ease 1s;
+}
+
+.oneline:last-child{
+    float:right;
+    
+}
+.oneline{
+    display:inline-block;
+    padding:5px;
+    
+}
+
+li:hover{
+    cursor:pointer;
+    color:white;
+    background-color:grey;
+}
+
+img{
+    width:30px;
+    height:30px;
+    display:inline-block;
+    float:left;
+}
+
+
+
+
+
+
